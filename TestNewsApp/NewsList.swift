@@ -11,19 +11,19 @@ struct NewsViewModel {
     let news: News
     
     var author: String {
-        return news.author ?? "Ari Levy"
+        return news.author ?? "Unknown"
     }
     
     var description: String {
-        return news.description ?? "Anil Chakravarthy joined Adobe in January 2020 to run the digital experience business. Soon, he was meeting all his co-workers and customers over video."
+        return news.description ?? ""
     }
     
     var title: String {
-        return news.title ?? "Adobe's newest top executive explains how Covid pandemic changed his first year on the job - CNBC"
+        return news.title ?? ""
     }
     
     var url: String {
-        return news.url ?? "https://www.cnbc.com/2021/04/25/adobe-evp-anil-chakravarthy-talks-covid-year-almost-meeting-tom-brady.html"
+        return news.url ?? ""
     }
     
     var urlToImage: String {
