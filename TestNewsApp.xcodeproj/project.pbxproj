@@ -14,6 +14,8 @@
 		E27A78552635CCB6007F2E26 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27A78542635CCB6007F2E26 /* News.swift */; };
 		E27A78592635CE03007F2E26 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27A78582635CE03007F2E26 /* API.swift */; };
 		E27A785D2635CEAB007F2E26 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27A785C2635CEAB007F2E26 /* NetworkManager.swift */; };
+		E27A78602635D637007F2E26 /* NewsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27A785F2635D637007F2E26 /* NewsList.swift */; };
+		E27A78632635D88C007F2E26 /* NewsListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27A78622635D88C007F2E26 /* NewsListVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		E27A78542635CCB6007F2E26 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
 		E27A78582635CE03007F2E26 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		E27A785C2635CEAB007F2E26 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		E27A785F2635D637007F2E26 /* NewsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsList.swift; sourceTree = "<group>"; };
+		E27A78622635D88C007F2E26 /* NewsListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 		E27A78522635CA6F007F2E26 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				E27A785F2635D637007F2E26 /* NewsList.swift */,
+				E27A78622635D88C007F2E26 /* NewsListVM.swift */,
 			);
 			name = ViewModels;
 			sourceTree = "<group>";
@@ -195,6 +201,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E27A78602635D637007F2E26 /* NewsList.swift in Sources */,
+				E27A78632635D88C007F2E26 /* NewsListVM.swift in Sources */,
 				E27A78552635CCB6007F2E26 /* News.swift in Sources */,
 				E20BC84E263580AE002D6EDF /* ContentView.swift in Sources */,
 				E27A785D2635CEAB007F2E26 /* NetworkManager.swift in Sources */,
